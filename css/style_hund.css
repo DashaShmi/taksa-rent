@@ -60,6 +60,7 @@ header {
 }
 .title_advantages {
   margin-top: 80px;
+  text-align: center;
 }
 
 .title_wheel,
@@ -135,6 +136,51 @@ button {
   color: #ffffff;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
-.our_clients .clients_1 {
+
+.our_clients {
+  background-color: #f9f4eb;
+}
+.our_clients .clients_1,
+.clients_2,
+.clients_3 {
   width: 100%;
+  margin-top: 60px;
+}
+.our_clients .clients_1_dscr {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #544f56;
+}
+
+.footer .container {
+  padding: 20px;
+}
+.footer_dscr {
+  color: white;
+}
+.footer .footer_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #948c95;
+  /* сделать скругление углов и получить из квардрата круг */
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.footer .footer_round img {
+  max-height: 20px;
+}
+
+.footer .links {
+  display: flex;
+}
+
+.footer .links .footer_round + .footer_round {
+  margin-left: 20px;
 }
