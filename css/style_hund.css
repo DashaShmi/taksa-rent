@@ -122,9 +122,9 @@ header {
   line-height: 28px;
 }
 
-button {
-  width: 200px;
-  height: 53px;
+.main_button {
+  display: inline-block;
+  padding: 27px 55px;
   background: linear-gradient(0deg, #bb28bb 0%, #b274e1 100%);
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -135,6 +135,10 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .our_clients {
